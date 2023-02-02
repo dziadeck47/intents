@@ -2,8 +2,8 @@ language: pl
 responses:
   intents:
     HassTurnOn:
-      default: Turned on {{ slots.name }}
-      lights_area: Turned on lights in {{ slots.area }}
-      fans_area: Turned on fans in {{ slots.area }}
-      cover: Opened {{ slots.name }}
-      cover_area: Opened {{ slots.area }}
+      default: "Włączono {{ slots.name }}"
+      lights_area: "Włączono światła w {{ slots.area }}"
+      fans_area: "Włączono wentylatory w {{ slots.area }}"
+      cover: "Otwarto {{ slots.name }}"
+      cover_area: "Otwarto {{ slots.area }}"
