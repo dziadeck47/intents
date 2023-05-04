@@ -119,7 +119,7 @@ expansion_rules:
   close_blind: "(zasłoń|opuść)"
   close_curtain: "(zasunięte|zasłonięte)"
   brightness: "{brightness}[%| procent]"
-  temp: "temperatur(a|ę|y)|stopni|zimno|gorąco"
+  temp: "(temperatur(a|ę|y)|stopni|zimno|gorąco)"
   temperature: "{temperature}[°| stopni] [{temperature_unit}]"
 skip_words:
   - "Proszę"
